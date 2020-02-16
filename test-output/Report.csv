@@ -1,0 +1,13 @@
+Test Summary Report
+Test Name :CUSTOM
+Start Date : Thu Jan 23 00:56:52 CST 2020,
+End Date   :  Thu Jan 23 01:01:24 CST 2020,
+Total Duration :0 Hours 4 Minutes 31 Seconds,
+Total Pass : 2,
+Total Fail : 0,
+Executed By : CPQAWFIRE02/Vivek.Prasad/OS-Windows Server 2012 R2,
+Groups: Slap_DrillDown_GrandTotal,Vblast,,
+URL :https://svcQaFCCAutomationAd:r50RLTVyRnFLSmbvWmJqhTbLAmacZj@qa-fcc.supremelending.com/,
+Browser : Chrome 
+TS_4:Blast-Verification of Level 3 Details Against Encompass Database With TestData :TD_1:For branch Alcorn Region- Daily ,Pass,Duration: 0 Hours 3 Minutes 13 Seconds
+TS_8:Verification of Grand Total Row displayed for selected month, displayed after bar-chart drill down for a desired loan Stage| Branch Level With TestData :TS_19:DrillDownTotalCount_All Region_FundedLoan,Pass,Duration: 0 Hours 1 Minutes 17 Seconds

@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-14T13:04:12.562Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10499754300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWeb()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15855200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforestartTest(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To test the following commands with Cucumber framework",
+        "description": "",
+        "id": "test-scenarios-and-commands;to-test-the-following-commands-with-cucumber-framework",
+        "after": [
+          {
+            "result": {
+              "duration": 640921500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWeb(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30690000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterstartTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27855303100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch Fcc URL",
+            "match": {
+              "location": "fcc.launch_Fcc_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.cucumbar.sample.fcc.page_gets_launched(fcc.java:55)\r\n\tat ✽.Page gets launched(file:features/fcc_16392.feature:8)\r\n",
+              "duration": 2649700,
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "Page gets launched",
+            "match": {
+              "location": "fcc.page_gets_launched()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click On Slap Module",
+            "match": {
+              "location": "fcc.click_On_Slap_Module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Slap home page should appear",
+            "match": {
+              "location": "fcc.slap_home_page_should_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select Desired Region from the drop down",
+            "match": {
+              "location": "fcc.select_Desired_Region_from_the_drop_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Region must be selected",
+            "match": {
+              "location": "fcc.region_must_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      }
+    ],
+    "name": "Test scenarios and commands",
+    "description": "",
+    "id": "test-scenarios-and-commands",
+    "keyword": "Feature",
+    "uri": "file:features/fcc_16392.feature",
+    "tags": [
+      {
+        "name": "@web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+
+    <!-- <listeners>
+        <listener
+            class-name="com.tavant.automationFramework.listener.GenerateReport" />
+        <listener
+            class-name="com.DashBoardListener.DashBoardListener.ListenerDetails" />
+        <listener
+            class-name="com.tavant.automation.AutomtionFrameworkV2.listeners.TestngLoggingListeners" />
+    </listeners> -->
+    <test name="Test">
+        <classes>
+            <class name="com.automation.cucumber_test.Runner" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
